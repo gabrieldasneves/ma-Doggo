@@ -25,15 +25,5 @@ main {
     margin-bottom: 20%;
   }
 
-  main .img .spinner {
-    font-size: 50px;
-    animation: spin 2s linear infinite;
-    display: none;
-  }
+ 
 
-@keyframes spin {
-    to {
-      -webkit-transform: rotateZ(360deg);
-              transform: rotateZ(360deg);
-    }
-  }
